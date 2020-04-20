@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a2b4e662a6bd542bb9fcb59d4162f8, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  size: {x: 6, y: 4}
+  minHuts: 0
+  maxHuts: 0
+  minEnemies: 1
+  maxEnemies: 1
+  enemies:
+  - max: 999
+    data: {fileID: 11400000, guid: 397c4745a664a7349bf244eab44b1dcb, type: 2}
+  rewardUnits: 0
+  offerRandomReward: 0
+  tutorialTexts:
+  - All leucoytes respond to your commands

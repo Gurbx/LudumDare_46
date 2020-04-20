@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a2b4e662a6bd542bb9fcb59d4162f8, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  size: {x: 4, y: 4}
+  minHuts: 0
+  maxHuts: 0
+  minEnemies: 1
+  maxEnemies: 1
+  enemies:
+  - max: 10
+    data: {fileID: 11400000, guid: 397c4745a664a7349bf244eab44b1dcb, type: 2}
+  rewardUnits: 1
+  offerRandomReward: 0
+  tutorialTexts:
+  - This body has been infected by a virus
+  - Use the immune system to fight the infection
